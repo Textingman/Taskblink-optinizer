@@ -13,7 +13,6 @@ export default function SignupPage() {
     phone: '',
     message: ''
   });
-  const [accountNotifications, setAccountNotifications] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
@@ -45,7 +44,7 @@ export default function SignupPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-bold text-gray-900">LendPlan</span>
+                <Image src="/Opt_Logo.png" alt="Optinizers" width={150} height={40} className="h-10 w-auto" />
               </Link>
             </div>
             <div className="hidden md:block">
@@ -76,10 +75,10 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
-              Get Started with LendPlan
+              Get Started with Optinizers
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Fill out the form below and we'll get back to you within 24 hours to set up your automated outreach campaigns.
+              Fill out the form below and we'll get back to you within 24 hours to set up your AI-powered scheduling and customer care automation.
             </p>
           </div>
         </div>
@@ -109,9 +108,9 @@ export default function SignupPage() {
           ) : (
             <>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">Sign Up for LendPlan</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">Sign Up for Optinizers</h2>
                 <p className="text-gray-600">
-                  Complete the form below to start automating your customer outreach and driving conversions.
+                  Complete the form below to start automating your meeting scheduling and customer care with AI.
                 </p>
               </div>
 
@@ -215,7 +214,7 @@ export default function SignupPage() {
                     value={formData.message}
                     onChange={handleChange}
                     className="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent"
-                    placeholder="How do you plan to use LendPlan?"
+                    placeholder="Tell us about your scheduling and customer care needs"
                   />
                 </div>
 
@@ -230,37 +229,7 @@ export default function SignupPage() {
                         className="mt-1 h-4 w-4 text-gray-900 focus:ring-gray-900 border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box, you provide consent to receive automated SMS messages from LendPlan. Message frequency varies and message and data rates may apply. You may opt-out by replying 'STOP'. Reply 'HELP' for help or email support@trylendplan.com. Consent is not required as a condition of purchasing any products or services.
-                      </label>
-                    </div>
-                  </div>
-
-                  {/* Call Consent Checkbox */}
-                  <div className="bg-gray-900 text-white rounded-lg p-6">
-                    <div className="flex items-start">
-                      <input
-                        type="checkbox"
-                        id="call-consent"
-                        className="mt-1 h-4 w-4 text-gray-900 focus:ring-gray-900 border-gray-300 rounded flex-shrink-0"
-                      />
-                      <label htmlFor="call-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box, you provide consent to receive automated customer care calls from LendPlan. Call frequency varies and standard phone rates may apply. You may opt-out at any time by contacting support@trylendplan.com. Consent is not required as a condition of purchasing any products or services.
-                      </label>
-                    </div>
-                  </div>
-
-                  {/* Account Notifications Opt-in Checkbox */}
-                  <div className="bg-gray-50 border border-gray-300 rounded-lg p-6">
-                    <div className="flex items-start">
-                      <input
-                        type="checkbox"
-                        id="account-notifications"
-                        checked={accountNotifications}
-                        onChange={(e) => setAccountNotifications(e.target.checked)}
-                        className="mt-1 h-4 w-4 text-gray-900 focus:ring-gray-900 border-gray-300 rounded flex-shrink-0"
-                      />
-                      <label htmlFor="account-notifications" className="ml-3 text-sm leading-relaxed text-gray-700">
-                        By checking this box, you consent to receive account notifications, service updates, and important information about your LendPlan account via email and SMS. You may opt-out at any time by contacting support@trylendplan.com or by following the unsubscribe instructions in our communications. Consent is not required as a condition of purchasing any products or services.
+                        By checking this box, you agree to receive customer care text messages from Optinizers. I understand I may opt out of SMS communication by replying 'STOP'. Text HELP for help. Message and Data rates may apply. Message frequency may vary. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form.
                       </label>
                     </div>
                   </div>
@@ -310,10 +279,6 @@ export default function SignupPage() {
                     'Get Started'
                   )}
                 </button>
-
-                <p className="text-center text-sm text-gray-500">
-                  Note: Web3Forms integration will be added in a future update.
-                </p>
               </form>
             </>
           )}
@@ -325,9 +290,9 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">LendPlan</h3>
+              <h3 className="text-xl font-bold mb-4">Optinizers</h3>
               <p className="text-gray-400">
-                Automated customer outreach that drives results.
+                AI-powered meeting scheduling and customer care automation.
               </p>
             </div>
             <div>
@@ -363,17 +328,16 @@ export default function SignupPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trylendplan.com
+                support@tryoptinizers.com
               </p>
               <p className="text-gray-400 mt-4">
-                6 Themistokli Dervi<br />
-                Flat/Office 4D<br />
-                1066 Nicosia, Cyprus
+                388 Cordova St Suite 100C<br />
+                Pasadena, California 91011<br />United States of America
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 LendPlan. All rights reserved.</p>
+            <p>&copy; 2025 Optinizers. All rights reserved.</p>
           </div>
         </div>
       </footer>

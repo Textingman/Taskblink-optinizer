@@ -11,7 +11,7 @@ export default function HomePage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-bold text-gray-900">LendPlan</span>
+                <Image src="/Opt_Logo.png" alt="Optinizers" width={150} height={40} className="h-10 w-auto" />
               </Link>
             </div>
             <div className="hidden md:block">
@@ -41,11 +41,11 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-7xl">
-            Automate Customer Outreach
-            <span className="block text-gray-900">Drive Meaningful Conversations</span>
+            AI-Powered Meeting Scheduling
+            <span className="block text-gray-900">& Customer Care Support</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
-            Follow up with users automatically through SMS and drive engagement. Turn abandoned interactions into completed conversions with intelligent, automated outreach.
+            Automate appointment scheduling and provide 24/7 customer support with intelligent AI assistants. Transform your customer experience with seamless automation.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <Link
@@ -67,9 +67,9 @@ export default function HomePage() {
       {/* Features Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900">Why Choose LendPlan?</h2>
+          <h2 className="text-4xl font-bold text-gray-900">Why Choose Optinizers?</h2>
           <p className="mt-4 text-xl text-gray-600">
-            Trusted by businesses to re-engage customers and drive conversions
+            Trusted by businesses to automate scheduling and deliver exceptional customer care
           </p>
         </div>
 
@@ -80,10 +80,10 @@ export default function HomePage() {
               <CheckCircle className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Automated Follow-Ups
+              Smart Meeting Scheduling
             </h3>
             <p className="text-gray-600 text-center">
-              Automatically reach out to users who haven't completed their journey, bringing them back to finish what they started.
+              AI-powered scheduling that automatically books appointments, sends reminders, and manages calendar conflicts without human intervention.
             </p>
           </div>
 
@@ -93,10 +93,10 @@ export default function HomePage() {
               <Zap className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Intelligent Timing
+              24/7 Customer Support
             </h3>
             <p className="text-gray-600 text-center">
-              Send messages at the perfect moment to maximize engagement and response rates with smart scheduling.
+              AI assistants that handle customer inquiries, resolve issues, and provide instant support around the clock.
             </p>
           </div>
 
@@ -106,10 +106,10 @@ export default function HomePage() {
               <Users className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Personalized Messaging
+              Intelligent Automation
             </h3>
             <p className="text-gray-600 text-center">
-              Craft personalized outreach campaigns that resonate with your users and drive meaningful conversations.
+              Natural language processing that understands customer needs and provides personalized responses and solutions.
             </p>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900">How It Works</h2>
             <p className="mt-4 text-xl text-gray-600">
-              Automated outreach that drives real results
+              AI-powered automation that transforms customer interactions
             </p>
           </div>
 
@@ -130,25 +130,25 @@ export default function HomePage() {
             <div className="space-y-12">
               {/* Solution 1 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Abandoned Form Recovery</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">AI Meeting Scheduler</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Automatically follow up with users who started but didn't complete your forms. Send personalized SMS reminders that bring them back to finish their application.
+                  Let AI handle appointment booking automatically. Customers can schedule meetings via chat, email, or SMS, with automatic calendar integration and conflict resolution.
                 </p>
               </div>
 
               {/* Solution 2 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Document Completion Reminders</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Automated Customer Care</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Send timely reminders for pending document signatures and submissions. Increase completion rates by reaching users directly on their mobile devices.
+                  AI-powered support agents that understand customer questions, provide instant answers, and escalate complex issues to human agents when needed.
                 </p>
               </div>
 
               {/* Solution 3 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Engagement Campaigns</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Reminders & Follow-ups</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Create automated SMS campaigns to re-engage inactive users, share updates, and drive them back into your conversion funnel with targeted messaging.
+                  Automated appointment reminders, follow-up messages, and proactive customer care that keeps your clients engaged and informed.
                 </p>
               </div>
             </div>
@@ -157,7 +157,7 @@ export default function HomePage() {
             <div className="rounded-lg overflow-hidden sticky top-8 flex items-start justify-center">
               <Image 
                 src="/Lendplan.png" 
-                alt="LendPlan Solutions" 
+                alt="Optinizers Solutions"
                 width={350} 
                 height={350}
                 className="w-auto h-auto object-contain max-w-full"
@@ -172,10 +172,10 @@ export default function HomePage() {
         <div className="bg-gray-900 rounded-2xl shadow-2xl overflow-hidden">
           <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready to Boost Your Conversions?
+              Ready to Transform Customer Conversations?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust LendPlan to automate customer outreach and drive meaningful conversations.
+              Join businesses that trust Optinizers to automate scheduling and drive meaningful customer conversations with AI.
             </p>
             <Link
               href="/signup"
@@ -192,9 +192,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">LendPlan</h3>
+              <h3 className="text-xl font-bold mb-4">Optinizers</h3>
               <p className="text-gray-400">
-                Automated customer outreach that drives results.
+                AI-powered meeting scheduling and customer care automation.
               </p>
             </div>
             <div>
@@ -230,17 +230,17 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trylendplan.com
+                support@tryoptinizers.com
               </p>
               <p className="text-gray-400 mt-4">
-                6 Themistokli Dervi<br />
-                Flat/Office 4D<br />
-                1066 Nicosia, Cyprus
+                388 Cordova St Suite 100C<br />
+                Pasadena, California 91011<br />
+                United States of America
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 LendPlan. All rights reserved.</p>
+            <p>&copy; 2025 Optinizers. All rights reserved.</p>
           </div>
         </div>
       </footer>

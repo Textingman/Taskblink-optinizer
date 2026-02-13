@@ -10,7 +10,7 @@ export default function AboutPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-bold text-gray-900">LendPlan</span>
+                <Image src="/Opt_Logo.png" alt="Optinizers" width={150} height={40} className="h-10 w-auto" />
               </Link>
             </div>
             <div className="hidden md:block">
@@ -40,10 +40,10 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
-            About LendPlan
+            About Optinizers
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're building the future of automated customer outreach, helping businesses re-engage users and drive meaningful conversations through SMS.
+            We're building the future of AI-powered business automation, helping companies streamline meeting scheduling and deliver exceptional customer care 24/7.
           </p>
         </div>
       </section>
@@ -53,33 +53,33 @@ export default function AboutPage() {
         <div className="bg-white rounded-xl shadow-lg p-8 md:p-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
           <p className="text-lg text-gray-600 mb-4">
-            LendPlan was created to solve a critical problem: businesses lose customers during the conversion process. We help you automatically re-engage users who abandon forms, forget to complete documents, or go inactive.
+            Optinizers was created to solve a critical problem: businesses waste countless hours on manual scheduling and struggle to provide round-the-clock customer support. We help you automate these processes with intelligent AI assistants.
           </p>
           <p className="text-lg text-gray-600 mb-8">
-            Traditional follow-up methods like email often go unnoticed. We've built a platform that reaches customers directly on their mobile devices through SMS, driving them back to complete their journey.
+            Traditional scheduling methods are time-consuming and customer support is limited by business hours. We've built a platform that uses AI to handle appointments automatically and provide instant customer care 24/7.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-6">What We Do</h2>
           <p className="text-lg text-gray-600 mb-4">
-            LendPlan provides an automated SMS outreach platform that helps businesses recover abandoned interactions and drive customer engagement. Our service includes:
+            Optinizers provides AI-powered automation tools that help businesses streamline operations and enhance customer experience. Our service includes:
           </p>
           <ul className="list-disc list-inside text-lg text-gray-600 mb-8 space-y-2">
-            <li>Automated follow-up campaigns for abandoned forms</li>
-            <li>Document completion reminders via SMS</li>
-            <li>Intelligent timing and scheduling</li>
-            <li>Personalized messaging templates</li>
-            <li>Real-time engagement tracking and analytics</li>
+            <li>AI-powered meeting scheduling and calendar management</li>
+            <li>24/7 automated customer support and inquiry handling</li>
+            <li>Intelligent appointment reminders and follow-ups</li>
+            <li>Natural language processing for customer interactions</li>
+            <li>Real-time analytics and performance tracking</li>
           </ul>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Choose Us</h2>
           <p className="text-lg text-gray-600 mb-4">
-            We understand that every abandoned interaction represents lost revenue. That's why we've built a platform that automatically reaches out to users at the perfect moment, bringing them back to complete their journey. Our team is dedicated to helping you maximize conversions through intelligent, automated outreach.
+            We understand that time is your most valuable resource. That's why we've built a platform that uses AI to handle scheduling and customer care automatically, freeing your team to focus on what matters most. Our intelligent assistants work 24/7 to ensure no customer inquiry goes unanswered and no appointment opportunity is missed.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-8">Our Address</h2>
           <p className="text-lg text-gray-600">
-            6 Themistokli Dervi, Flat/Office 4D<br />
-            1066 Nicosia, Cyprus
+            388 Cordova St Suite 100C<br />
+            Pasadena, California 91011<br />United States of America
           </p>
         </div>
       </section>
@@ -92,7 +92,7 @@ export default function AboutPage() {
               Ready to Boost Your Conversions?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust LendPlan to automate customer outreach and drive meaningful conversations.
+              Join businesses that trust Optinizers to automate scheduling and deliver exceptional customer care with AI.
             </p>
             <Link
               href="/signup"
@@ -109,9 +109,9 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">LendPlan</h3>
+              <h3 className="text-xl font-bold mb-4">Optinizers</h3>
               <p className="text-gray-400">
-                Automated customer outreach that drives results.
+                AI-powered meeting scheduling and customer care automation.
               </p>
             </div>
             <div>
@@ -147,17 +147,17 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trylendplan.com
+                support@tryoptinizers.com
               </p>
               <p className="text-gray-400 mt-4">
-                6 Themistokli Dervi<br />
-                Flat/Office 4D<br />
-                1066 Nicosia, Cyprus
+                388 Cordova St Suite 100C<br />
+                Pasadena, California 91011<br />
+                United States of America
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 LendPlan. All rights reserved.</p>
+            <p>&copy; 2025 Optinizers. All rights reserved.</p>
           </div>
         </div>
       </footer>

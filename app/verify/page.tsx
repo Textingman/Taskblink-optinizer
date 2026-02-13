@@ -69,7 +69,7 @@ function VerifyPageContent() {
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8">
         {/* Logo/Brand */}
         <div className="flex justify-center mb-8">
-          <span className="text-3xl font-bold text-[#d364a4]">LendPlan</span>
+          <Image src="/Opt_Logo.png" alt="Optinizers" width={180} height={50} className="h-12 w-auto" />
         </div>
 
         {/* Verification Content */}
@@ -120,7 +120,7 @@ function VerifyPageContent() {
         {/* Footer */}
         <div className="text-center pt-6 border-t border-gray-200">
           <p className="text-xs text-gray-500">
-            Secured by LendPlan
+            Secured by Optinizers
           </p>
         </div>
       </div>

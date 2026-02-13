@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LendPlan - SMS Verification & Customer Engagement",
-  description: "Verify your customers with confidence. LendPlan provides reliable SMS verification and customer engagement solutions for businesses.",
+  title: "Optinizers - AI Meeting Scheduling & Customer Care",
+  description: "Automate appointment scheduling and provide 24/7 customer support with intelligent AI assistants. Transform your customer experience.",
 };
 
 export default function RootLayout({

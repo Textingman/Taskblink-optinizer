@@ -156,7 +156,7 @@ export default function HomePage() {
             {/* Single Image */}
             <div className="rounded-lg overflow-hidden sticky top-8 flex items-start justify-center">
               <Image 
-                src="/Lendplan.png" 
+                src="/Optinizer.png" 
                 alt="Optinizers Solutions"
                 width={350} 
                 height={350}
